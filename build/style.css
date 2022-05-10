@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital,wght@1,500&display=swap');
+body{
+    margin: 0 0;
+}
+footer{
+    position:fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+
+

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora:ital,wght@1,500&display=swap');
+body{
+    margin: 0 0;
+}
+
+footer{
+    position:fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    font-family: 'Lora', serif;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.top-pane{
+    background-color: #212529;
+}
+.pane{
+    height: 50vh;
+    display: flex;
+}
+
+.editor-container{
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+}
+.editor-title{
+    background-color: #0f1012;
+    font-size: .8rem;
+    color: white;
+    padding: .3rem 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    text-align: center;
+}
+
+.CodeMirror{
+    height: 100% !important;
+}
+.code-mirror-wrapper{
+    flex-grow: 1;
+    overflow: hidden;
+
+}
+
+
+@media  (max-width: 900px){
+    .pane{
+        display:block;
+        height: 106vh;
+    }
+    .CodeMirror{
+        height: 30vh !important;
+    }
+}
